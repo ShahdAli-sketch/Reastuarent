@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eatery Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- 1. Heading and Description -->
+        <h1>Eatery</h1>
+        <p>Welcome to Eatery, your favorite place for delicious meals.</p>
+    </header>
+
+    <main>
+        <!-- 2. Ordered List showing Top 3 Meals -->
+        <h2>Top 3 Meals</h2>
+        <ol>
+            <li>Grilled Chicken</li>
+            <li>Beef Steak</li>
+            <li>Pasta Alfredo</li>
+        </ol>
+
+        <!-- 3. Image of Best Seller -->
+        <figure>
+            <img src="best-seller.jpg" alt="Grilled chicken, the best seller at Eatery" width="300">
+            <figcaption>Our best seller: Grilled Chicken </figcaption>
+        </figure>
+
+        <!-- 4. Table showing Daily Menu -->
+        <h2>Daily Menu</h2>
+        <table border="1" align="center" style="text-align: center; margin: 0 auto;">
+        <caption>Daily Menu</caption>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Grilled Chicken</td>
+                <td>120 EGP</td>
+            </tr>
+            <tr>
+                <td>Beef Steak</td>
+                <td>95 EGP</td>
+            </tr>
+            <tr>
+                <td>Pasta Alfredo</td>
+                <td>85 EGP</td>
+            </tr>
+        </table>
+   
+        <!-- 5. Form for Booking or Feedback -->
+        <h2>Booking or Feedback</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form> 
+    </main> 
+
+    <footer>
+        <p>&copy; 2026 Eatery</p>
+    </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* style.css */
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Main Section */
+main {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: #8b4513;
+    border-bottom: 2px solid #d4a373;
+    padding-bottom: 8px;
+}
+
+/* Ordered List */
+ol {
+    padding-left: 30px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+/* Image */
+figure {
+    text-align: center;
+    margin: 30px 0;
+}
+
+figure img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #8b4513;
+}
+
+/* Table */
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2e6d8;
+}
+
+/* Form */
+form {
+    width: 70%;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5c2e0b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    table, form {
+        width: 100%;
+    }
+}
